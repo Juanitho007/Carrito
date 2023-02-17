@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b22286fea9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Academlo Store</title>
+    <link rel="icon" href="./assets/img/logo_blanco.png" />
+    <link rel="apple-touch-icon" href="./assets/img/logo_blanco.png" />
+    <meta name="theme-color" content="#eb4a5a" />
+  </head>
+  <body>
+    <nav>
+      <img src="./assets/img/logo_nombre.png" alt="" />
+      <button class="car__toggle">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </button>
+      <!-- Carrito de compras -->
+      <div class="car__block" id="car">
+        <div id="car__list"></div>
+        <button class="empty__button" id="empty__car">Empty cart</button>
+      </div>
+    </nav>
+    <header>
+      <img src="./assets/img/logo_blanco.png" alt="" />
+    </header>
+    <main>
+      <h3>Todos nuestros productos</h3>
+      <!-- Lista de productos -->
+      <div id="products-container" class="principal__container"></div>
+    </main>
+    <footer>
+      <h3>
+        <marquee behavior="scroll" direction="">&#x276e;Hecho con
+        <a href="https://www.academlo.com/" target="_blank"
+          ><i class="fa-solid fa-heart-pulse"></i
+        ></a>
+        en Academlo&#x276f;_</marquee>
+        
+      </h3>
+      <p>
+        <a
+          href="https://juanitho007.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Visita mis otros proyectos</a
+        >
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
